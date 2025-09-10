@@ -1,5 +1,5 @@
-const username = process.env.WEB_USERNAME || "admin";
-const password = process.env.WEB_PASSWORD || "password";
+const username = process.env.WEB_USERNAME || "mutaoop";
+const password = process.env.WEB_PASSWORD || "gr3truh%$#@g8g6rf";
 const url = "http://127.0.0.1";
 const port = process.env.PORT || 3000; /* Modify here when irregular port is allocated by container platform */
 const express = require("express");
@@ -262,3 +262,4 @@ console.log(`Username is: ${username}`);
 console.log(`Password is: ${password}`);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+

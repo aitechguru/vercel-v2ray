@@ -1,6 +1,7 @@
 {
   "name": "v2ray",
   "version": "1.0.0",
+  "description": "V2ray Server",
   "main": "index.js",
   "repository": "https://github.com/tahaghafuri/vercel-v2ray",
   "author": "tahaghafuri",
@@ -19,6 +20,7 @@
     "node": ">=14"
   }
 }
+
 
 
 

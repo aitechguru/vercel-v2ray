@@ -3,8 +3,8 @@
 # Set variables, WS path prefix. (Note: The disguised path does not need to start with a / symbol. To avoid unnecessary trouble, please do not use special characters.)
 WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
-WEB_USERNAME=${WEB_USERNAME:-'admin'}
-WEB_PASSWORD=${WEB_PASSWORD:-'password'}
+WEB_USERNAME=${WEB_USERNAME:-'mutaoop'}
+WEB_PASSWORD=${WEB_PASSWORD:-'gr3truh%$#@g8g6rf'}
 
 # Nezha 4 parameters, ssl/tls see if needed, leave blank if not needed, delete or comment out at the beginning of these 4 lines
 NEZHA_SERVER="$NEZHA_SERVER"

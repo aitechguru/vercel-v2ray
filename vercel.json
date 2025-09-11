@@ -1,9 +1,9 @@
    {
      "version": 2,
      "functions": {
-       "index.js": { "maxDuration": 10 }
+       "/index.js": { "maxDuration": 10 }
      },
      "rewrites": [
-       { "source": "/(.*)", "destination": "index.js" }
+       { "source": "/(.*)", "destination": "/index.js" }
      ]
    }

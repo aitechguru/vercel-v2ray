@@ -1,8 +1,9 @@
-{
-  "rewrites": [
-    {
-     "source": "/(.*)",
-      "destination": "*.*"
-    }
-  ]
-}
+   {
+     "version": 2,
+     "functions": {
+       "index.js": { "maxDuration": 20 }
+     },
+     "rewrites": [
+       { "source": "/(.*)", "destination": "index.js" }
+     ]
+   }

@@ -1,10 +1,9 @@
    {
      "version": 2,
      "functions": {
-       "api/index.js": { "maxDuration": 30 }
+       "api/index.js": { "maxDuration": 300 }
      },
      "rewrites": [
-       { "source": "/ws", "destination": "api/index.js" },
        { "source": "/(.*)", "destination": "api/index.js" }
      ]
    }

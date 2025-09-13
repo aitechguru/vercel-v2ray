@@ -9,5 +9,5 @@
       "src": "public/**/*.html",
       "use": "@vercel/static"
     }
-  ],
+  ]
 }

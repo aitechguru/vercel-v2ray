@@ -1,21 +1,11 @@
+
 {
- "version": 3,
- "installCommand": "npm install --legacy-peer-deps",
- "builds": [
- {
- "src": "api/index.js",
- "use": "@vercel/node"
- },
- {
- "src": "package.json",
- "use": "@vercel/static-build",
- "config": { "distDir": "build" }
- }
- ],
- "routes": [
- {
- "src": "api/(.*)",
- "dest": "api/index.js"
- }
- ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/frameworks"
+    }
+  ],
 }

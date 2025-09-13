@@ -1,5 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
+  "buildCommand": "next build",
+  "cleanUrls": true,
+  "outputDirectory": "public",  
   "builds": [
     { "src": "/api/index.js", "use": "@vercel/node" }
   ],

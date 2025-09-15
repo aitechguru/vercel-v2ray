@@ -264,7 +264,8 @@ exec("bash entrypoint.sh", function (err, stdout, stderr) {
 console.log(`Username is: ${username}`);
 console.log(`Password is: ${password}`);
 
+ably.channels.get('v2ray-status').publish('connected', { userId: de04add9-5c68-8bab-950c-08cd5320df18 });
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
-ably.channels.get('v2ray-status').publish('connected', { userId: de04add9-5c68-8bab-950c-08cd5320df18 });
+
 

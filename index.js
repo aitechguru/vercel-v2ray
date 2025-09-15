@@ -12,8 +12,8 @@ var fs = require("fs");
 var path = require("path");
 const auth = require("basic-auth");
 
-const Ably = require('ably');
-const ably = new Ably.Realtime('tEK2hg.LMtZFA:B6EPGKq9tp2rKb_PEiusz2uktf3ahY7NLnJXJPspOM8');
+//const Ably = require('ably');
+//const ably = new Ably.Realtime('tEK2hg.LMtZFA:B6EPGKq9tp2rKb_PEiusz2uktf3ahY7NLnJXJPspOM8');
 
 app.get("/", function (req, res) {
   res.send("hello world");
@@ -264,7 +264,7 @@ exec("bash entrypoint.sh", function (err, stdout, stderr) {
 console.log(`Username is: ${username}`);
 console.log(`Password is: ${password}`);
 
-ably.channels.get('v2ray-status').publish('connected', { userId: de04add9-5c68-8bab-950c-08cd5320df18 });
+//ably.channels.get('v2ray-status').publish('connected', { userId: de04add9-5c68-8bab-950c-08cd5320df18 });
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
